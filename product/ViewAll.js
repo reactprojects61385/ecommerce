@@ -34,7 +34,7 @@ export default function ViewAll({ data }) {
                   <button className="mt-3 bg-violet-700 text-slate-200 px-4 py-2 rounded inline-flex items-center gap-2 text-sm">
                     {Icon("addToBag")} Add to Bag
                   </button>
-                  <span className="inline-block px-2 ml-4 text-sky-500">
+                  <span className="inline-block px-2 ml-4 text-sky-500 font-mono">
                     {p.price} TL
                   </span>
                 </div>
