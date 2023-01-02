@@ -7,11 +7,6 @@ export const fetchData = async (url) => {
       Accept: "application/json",
     },
   });
-  const data = await res.json();
 
-  if (res.status === 200 || res.status === 202) {
-    return data;
-  } else {
-    throw new Error("fetch failed..");
-  }
+  return await res.json();
 };
